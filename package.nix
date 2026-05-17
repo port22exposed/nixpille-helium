@@ -114,7 +114,6 @@ stdenv.mkDerivation {
           gtk3
         ]
       }" \
-      --add-flags "--enable-features=VaapiVideoDecodeLinuxGL,VaapiVideoEncoder"
 
     install -m 444 $out/opt/helium/helium.desktop $out/share/applications/helium.desktop
     install -m 444 $out/opt/helium/product_logo_256.png $out/share/pixmaps/helium.png
