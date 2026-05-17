@@ -111,6 +111,7 @@ stdenv.mkDerivation {
           libva
           pipewire
           libpulseaudio
+          gtk3
         ]
       }" \
       --add-flags "--enable-features=VaapiVideoDecodeLinuxGL,VaapiVideoEncoder"
