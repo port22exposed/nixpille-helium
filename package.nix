@@ -18,7 +18,12 @@
   libxcb,
   libxkbcommon,
   at-spi2-core,
-  xorg,
+  libx11,
+  libxcomposite,
+  libxdamage,
+  libxext,
+  libxfixes,
+  libxrandr,
   mesa,
   cairo,
   pango,
@@ -70,12 +75,12 @@ stdenv.mkDerivation {
     libxcb
     libxkbcommon
     at-spi2-core
-    xorg.libX11
-    xorg.libXcomposite
-    xorg.libXdamage
-    xorg.libXext
-    xorg.libXfixes
-    xorg.libXrandr
+    libx11
+    libxcomposite
+    libxdamage
+    libxext
+    libxfixes
+    libxrandr
     mesa
     cairo
     pango
